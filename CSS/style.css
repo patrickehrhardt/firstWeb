@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  filter: grayscale(2);
+  max-height: 500px;
+  background-image: url(../Image/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#box1 {
+  /*box size*/
+  width: 650px;
+  height: 400px;
+  /*box position*/
+  margin: 0 auto;
+  margin-top: 10%;
+
+  /*colors*/
+  background-color: rgba(0, 0, 0, 0.603);
+
+  /*border*/
+  border-width: 3px;
+  border-style: inset;
+  border-color: rgb(53, 48, 48);
+  /*font*/
+  font-family: "Permanent Marker", cursive;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bold;
+}
+
+#box1 h2 {
+  /*position*/
+  text-align: center;
+  margin-top: 15px;
+
+  color: white;
+}
+#box1 p {
+  /*position*/
+  margin: 15px 50px;
+  font-size: 16px;
+  color: white;
+}
+footer {
+  width: 500px;
+  height: 10%;
+
+  margin: 0 auto;
+  margin-top: 2%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+  margin: 10px 13px;
+
+  /*border-width: 3px;
+  border-style: inset;
+  border-color: black;*/
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-github {
+  background: white;
+  color: black;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-google {
+  background: red;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
